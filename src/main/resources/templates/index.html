@@ -2,8 +2,8 @@
 <html xmlns:th="http://www.thymeleaf.org" th:replace="~{fragments/layout :: layout (~{::body},'index')}">
 
 <body>
-  <div id="like_button_container"></div>
-
-  <script th:src="@{/scripts/like_button.js}"></script>
+  <div id="root"></div>
+  <link rel="stylesheet" type="text/css" href="/index/index.css" />
+  <script type="text/babel" th:src="@{/index/index.js}"></script>
 </body>
 </html>
